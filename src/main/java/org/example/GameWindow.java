@@ -105,7 +105,7 @@ public class GameWindow extends JFrame {
         int mouseY = e.getY();
 
         // Pass the mouse coordinates to the shooter's trackMouse method
-        shooter.trackMouse(mouseX, mouseY, getHeight());
+        shooter.trackMouse(mouseX, mouseY);
         // Repaint the game window after updating the shooter's position
         repaint();
     }
